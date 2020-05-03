@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "463460238854",
+    "firebase_url": "https://booksemyapp.firebaseio.com",
+    "project_id": "booksemyapp",
+    "storage_bucket": "booksemyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463460238854:android:ed07c20ad2e01e200fe587",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelab.mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463460238854-toolf5sakuenbi8vk01hlghgh9edja8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArj6-IzioesA2a6PgIFbGsW89kKOR-LKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463460238854-toolf5sakuenbi8vk01hlghgh9edja8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

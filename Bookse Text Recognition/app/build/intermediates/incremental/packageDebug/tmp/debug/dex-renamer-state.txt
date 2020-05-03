@@ -1,0 +1,4 @@
+#Sat May 02 20:51:25 CDT 2020
+base.0=C\:\\Users\\LdHuy-DELL.DESKTOP-S4EKI7K\\Desktop\\UNT\\2020_1_Spring\\CSCE_4901\\mlkit-android-master\\vision\\final\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
