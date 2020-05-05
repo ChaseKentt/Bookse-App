@@ -316,12 +316,11 @@ public class OpenCVCamera extends AppCompatActivity implements CameraBridgeViewB
 
         Core.flip(frame.t(), mRgbaT, 1);
         Imgproc.resize(mRgbaT, mRgbaT, frame.size());
-
-        /*
+        
         bwidth = centerRect.width - 350;
         bheight = centerRect.height - 250;
 
-
+        /*
         Mat shadow_frame = frame.t();
         Mat edge_frame = frame.t();
         Mat cont_frame = frame.t();
@@ -366,11 +365,16 @@ public class OpenCVCamera extends AppCompatActivity implements CameraBridgeViewB
                 bPts = pts;
                 count = count + 1;
             }
-        }
+            else {*/
+                x = (int) (centerRect.tl().x + centerRect.br().x)/2;
+                y = (int) (centerRect.tl().y + centerRect.br().y)/2;
+                bRect = new Rect(x - bwidth / 2,y - bheight / 2,bwidth,bheight);
+                /*
+            }
+        }*/
 
         //if (count > 0)
             Imgproc.rectangle(mRgbaT, new Point(bRect.x, bRect.y), new Point(bRect.x + bRect.width, bRect.y + bRect.height), new Scalar(255, 0, 0, 255), 3);
-        */
 
         return mRgbaT;
     }
