@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OpenCV_Import_3_4_5</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="image_from_camera">Image from camera</string>
+</resources>
