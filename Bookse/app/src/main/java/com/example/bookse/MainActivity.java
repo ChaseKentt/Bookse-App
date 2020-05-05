@@ -60,11 +60,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launchOpenCV(View v) {
-        Intent intent = new Intent("OpenCvActivity");
-//                EditText editText = (EditText) findViewById(R.id.editText);
-////                String message = editText.getText().toString();
-////                intent.putExtra(EXTRA_MESSAGE, message);
-        startActivity(intent);
+        Intent myIntent = new Intent(v.getContext(), OpenCvActivity.class);
+        startActivity(myIntent);
     }
 
     @Override

@@ -175,6 +175,7 @@ public class OpenCvActivity extends AppCompatActivity implements CameraBridgeVie
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.i(TAG,"Beginning of on create");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_opencv);
 
