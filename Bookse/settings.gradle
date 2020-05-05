@@ -1,0 +1,3 @@
+rootProject.name='Bookse'
+include ':app'
+include ':openCVLibrary345'
